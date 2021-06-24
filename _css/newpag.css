@@ -1,0 +1,235 @@
+
+@charset "UTF-8";
+
+body {
+	background-color: #424251;
+	background-image: url(../images/back.jpg);
+	font-family: arial, sans-serif;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+header#cabecalho {
+	margin: -8px;
+	background-color: #313140;
+	box-shadow: 1px 3px 3px 1px rgba(0,0,0,.4);
+}
+div#menu img#home-icon{
+	position: absolute;
+	left: 346px;
+	top: 22px;
+}
+div#menu img#procurar {
+	position: absolute;
+	left: 704px;
+	top: 25px;
+}
+img#foto-medio-perfil {
+	position: relative;
+	top: 20px;
+	border-radius: 4px;
+	border: 2px solid #ffffff; 
+	width: 220px;
+	height: 158px;
+}
+div#menu {
+	background-color: #313140;
+	width: 1070px;
+	margin: -20px auto 10px auto;
+	height: 38px;
+	padding: 10px;
+	position: relative;
+	display: block;
+}
+header#cabecalho div#menu img#logo {
+	position: absolute;
+	left: 5px;
+	top: 22px;
+}
+
+div#menu img#retrato {
+	position: absolute;
+	left: 870px;
+	top: 22px;
+	border: 1px solid white; 
+	width: 33px;
+	height: 26px;
+}
+div#menu nomeuser {
+	font-size: 16px;
+	font-family: Myriad Pro;
+	color: white;
+	position: absolute;
+	left: 916px;
+	top: 28px;
+}
+
+div#interface {
+	width: 1070px;
+	margin: 0px auto 10px auto;
+	height: 38px;
+	padding: 15px;
+
+}
+aside#esquerda {
+	display: block;
+	float: left;
+	padding: 10px;
+	width: 200px;
+	background-color: #4a4a4a; 
+	box-shadow: 1px 3px 3px 1px rgba(0,0,0,.4);
+	border-radius: 4px;
+}
+aside#esquerda p {
+	margin-top: -10px;
+	font-size: 12pt;
+	padding-left: 5px;
+	font-family: arial;
+	color: white;
+}
+aside#esquerda img#menuimagens {
+	position: relative;
+	top: 4px;
+	margin-right: 15px;
+}
+div#perfil {
+	position: relative;
+	left: 0px;
+	display: block;
+	float: left;
+	width: 1050px;
+	height: 260px;
+	background: url(../images/fundo-perfil.jpg); 
+	background-repeat: no-repeat;
+  	background-size: 100% 100%; 
+	margin-bottom: 16px;
+	padding-top: 16px;
+	padding-left: 16px;
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+	color: #ffffff;
+	box-shadow: 1px 3px 3px 1px rgba(0,0,0,.4);
+	text-shadow: 1px 1px 5px #000000;
+}
+div#perfil h3 {
+	position: relative;
+	font-size: 24px;
+}
+section#corpo {
+	padding-top: 16px;
+	display: block;
+	margin: auto;
+	left: 16px;
+	display: block;
+	width: 1000px;
+}
+div#bloco{
+	background-color: #ffffff;
+	padding: 16px;
+	border-radius: 4px;
+	box-shadow: 1px 3px 3px 1px rgba(0,0,0,.4);
+	margin-bottom: 12px;
+}
+div#bloco.pesquisa{
+	background-color: #B3FF99;
+}
+aside#direita {
+	display: block;
+	float: right;
+	padding: 10px;
+	width: 200px;
+	height: 160px;
+	margin-bottom: 20px;
+	background-color: #EE9A00;
+	box-shadow: 1px 3px 3px 1px rgba(0,0,0,.4);
+	border-radius: 4px;
+}
+footer#rodape {
+	padding: 2px;
+	clear: both;
+}
+footer#rodape p {
+	text-align: center;
+	color: white;
+	font-family: Myriad Pro;
+}
+select{
+	padding: 6px;
+	font-size: 12pt;
+}
+input#text{
+	padding: 6px;
+	margin-bottom: 10px;
+	width: 924px;
+}
+textarea#textarea{
+	position: relative;
+	width: 934px;
+	border-color: #BBBBBB;
+	font-size: 14pt;
+  	resize: vertical;
+}
+input#button{
+	position: relative;
+	left: 840px;
+	padding: 12px;
+	color: white;
+	font-size: 16px;
+	background-color: #984DD7;
+	border-color: transparent;
+}
+input#button:hover{
+	color: black;
+	background-color: #DCDCDC;
+}
+div#menu input#pesquisa {
+	position: absolute;
+	left: 377px;
+	top: 20px;
+	width: 350px;
+	height: 24px;
+	border-radius: 2px;
+	font-size: 12pt;
+    padding: 3px;
+    border: 0;
+    background-color: #DDDDDD;
+}
+aside#direita input#nf{
+	position: relative;
+	color: white;
+	background-color: #984DD7;
+	border-color: transparent;
+	left: 36px;
+	top: 18px;
+	padding: 6px;
+}
+aside#direita input#nf:hover{
+	color: black;
+	background-color: #DCDCDC;
+}
+section#corpo a {
+	color: #000000;
+}
+#img-solicitacao {
+	width: 50px;
+	height: 50px;
+}
+aside#direita-white a {
+	color: #000000;
+}
+h3 {
+	position: relative;
+	top: -6px;
+	background-color: #EE9A00;
+	padding: 16px;
+	border-radius: 4px;
+}
+p {
+	background-color: #cecece;
+	padding: 16px;
+	border-radius: 4px;
+}

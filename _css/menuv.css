@@ -1,0 +1,34 @@
+nav li, nav ul{margin: 0; padding: 0;font-size: 12px;}
+
+.menu{
+position: absolute;
+top: 28px;
+right: 38px;
+list-style:none;
+float:right;
+}
+.menu li{
+position:relative;
+float:right;
+padding: 6px;
+}
+.menu li a{color:#fff; text-decoration:none; padding:5px 5px; display:block;}
+ 
+.menu li a:hover{
+background:#984DD7;
+color:#fff;
+}
+.menu li  ul{
+position:absolute;
+top:24px;
+right:0;
+background-color:#313140;
+display:none;
+	box-shadow: 1px 3px 3px 1px rgba(0,0,0,.4);
+}  
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+border:1px solid #fff;
+display:block;
+width:150px;
+}

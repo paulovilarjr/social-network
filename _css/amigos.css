@@ -1,0 +1,20 @@
+@charset="utf-8";
+perfil{
+	width: 95px;
+	display: inline-block;
+	padding: 0px 10px 10px 10px;
+}
+#foto-amigos {
+	display: block;
+	width: 95px;
+	height: 76px;
+	padding: 2px;
+	border: 1px solid #000000;
+	display: block;
+}
+#nome-amigos {
+	display: block;
+	text-align: center;
+	color: red;
+	font-size: 18px;
+}
